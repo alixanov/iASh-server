@@ -7,6 +7,7 @@ const itemRoutes = require("./router/router")
 connectDB()
 const app = express();
 
+
 app.use(express.json())
 app.use(cors())
 app.use(express.urlencoded({ extended: false }))
